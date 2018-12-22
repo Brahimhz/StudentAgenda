@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Agenda</string>
+    <string name="welc">Bienvenue</string>
+    <string name="fname">Nom</string>
+    <string name="name">Prénom</string>
+
+    <string-array name="lang">
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+
+    <string-array name="niv">
+        <item>Lic. Semestre 1</item>
+        <item>Lic. Semestre 2</item>
+        <item>Lic. Semestre 3</item>
+        <item>Lic. Semestre 4</item>
+        <item>Lic. Semestre 5</item>
+        <item>Lic. Semestre 6</item>
+        <item>Mas. Semestre 1</item>
+        <item>Mas. Semestre 2</item>
+        <item>Mas. Semestre 3</item>
+        <item>Mas. Semestre 4</item>
+    </string-array>
+
+    <string-array name="sexe">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+
+    <string name="pfelic">Lic. Semestre 6</string>
+    <string name="pfemas">Mas. Semestre 4</string>
+
+    <string name="get">Démarrer</string>
+    <string name="title_activity_time_table">Emploi de temps</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Paramètres</string>
+
+
+    <string name="d1">Samedi</string>
+    <string name="d2">Dimanche</string>
+    <string name="d3">Lundi</string>
+    <string name="d4">Mardi</string>
+    <string name="d5">Mercredi</string>
+    <string name="d6">Vendredi</string>
+
+    <string name="add">Ajouter</string>
+    <string name="det">Détails</string>
+    <string name="mod">Modifier</string>
+    <string name="del">Supprimer</string>
+
+    <string name="modt">Modifier l\'heure de Séance </string>
+
+    <string name="dialaddtitle"> Ajouter une Séance  </string>
+    <string name="dialseanam">Module :</string>
+    <string name="dialseatype">Type de Module :</string>
+
+
+    <string-array name="seatype">
+        <item name="typeseaC">Cour</item>
+        <item name="typeseaTD">TD</item>
+        <item name="typeseaTP">TP</item>
+    </string-array>
+
+    <string name="typeclassC"> amphi </string>
+    <string name="typeclassTD"> SL </string>
+    <string name="typeclassTP"> CC </string>
+
+
+    <string name="dialclassnbr">Numéro de la salle</string>
+    <string name="dialprofname">Donner le nom de Prof</string>
+    <string name="dialvalid">Valider</string>
+
+
+    <string name="dialmdfstrt">Début a :</string>
+    <string name="dialmdffnsh">Fin a :</string>
+
+
+    <string name="dialdettitle">Détaille de Séance</string>
+    <string name="dialdetclas">Salle de Séance :</string>
+    <string name="dialdetnamprof">Seance Prof :</string>
+
+    <string name="dialdeltitle">Supprimer la Séance</string>
+    <string name="dialdeltask"> Confirmer la suppression </string>
+    <string name="dialdelcanc"> Annuler </string>
+
+    <string name="titletimetable">Emploi de temps de </string>
+    <string name="gstmod">Module</string>
+    <string name="gstexam">Examens</string>
+    <string name="gsttimetab">Emploi de temps</string>
+    <string name="pfe">PFE</string>
+    <string name="pfecont">Contacts</string>
+    <string name="pfetask">Tâches</string>
+    <string name="pferdv">RDVs</string>
+
+
+    <string name="modimod">  Modifier un Module  </string>
+    <string name="delmod">  Supprimer un Module  </string>
+    <string name="addmod">  Ajouter  </string>
+    <string name="dialogmodname">  Nom:  </string>
+    <string name="dialogmodnameabv">  Abbréviation:  </string>
+    <string name="dialogmodcoff">Coef.:</string>
+    <string name="dialogmodcrid">  Crédits:  </string>
+    <string name="dialogmodnbrcour">   Numbre de Cours:  </string>
+    <string name="dialogmodnbrtd">  Numbre de TD:  </string>
+    <string name="dialogmodnbrtp">  Numbre de TP:  </string>
+    <string name="dialogmodmodevexam">  Evaluation Mode Of Exams :  </string>
+    <string name="dialogmodmodevtd">  Evaluation Mode Of TD:  </string>
+    <string name="dialognoteTD">  TD : </string>
+    <string name="dialognoteTP">  TP :  </string>
+    <string name="dialognoteExam"> Examen : </string>
+    <string name="addnotemodule">  Ajouter Notes  </string>
+    <string name="mofinotemodule">  Modifier Notes  </string>
+    <string name="notemod">Notes de Module</string>
+    <string name="validebtn">  Vailder  </string>
+    <string name="cancebtn">  Annuler  </string>
+
+    <string name="modsem">Modules de</string>
+    <string name="modify">Modifier</string>
+    <string name="delete">Supprimer</string>
+
+    <string name="deletealert">Vous Confirmez La Suppression ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="moy">Moyenne</string>
+    <string name="semmoy">Moyenne de semestre</string>
+
+    <string name="next">Suivant</string>
+    <string name="title_activity_module__manage">GST_Module</string>
+
+    <string name="langage">Langage</string>
+    <string name="profil">Profil</string>
+    <string name="setting">Paramêtre</string>
+
+    <string name="titreexam">Exam De </string>
+    <string name="modexam">Ex. Module</string>
+    <string name="profexam">Ex. Prof. Nom</string>
+    <string name="superexam">Sup.Prof.Ex.</string>
+    <string name="hexam">Temps Ex</string>
+    <string name="dayexam">Jour Ex</string>
+    <string name="lieuexam">Salle Ex</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+
+
+    <string-array name="months_array">
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+    <string name="title_activity_exam__manage">GST_Exam</string>
+
+
+    <string name="enc"> Encadreur </string>
+    <string name="bin"> Binôme </string>
+    <string name="nom"> Nom </string>
+    <string name="prenom"> Prénom </string>
+    <string name="tel"> Numéro de téléphone </string>
+    <string name="sexe"> Sexe               </string>
+    <string name="type"> Type de contact     </string>
+    <string name="valide"> Valider </string>
+    <string name="fem"> Femmme </string>
+    <string name="conttitle">Vos contacts</string>
+    <string name="call">Appeler</string>
+    <string name="msg">Envoyer un Message</string>
+    <string name="message"> Le Message :</string>
+
+    <string name="title_activity_pfe__contact">PFE_Contact</string>
+
+
+    <string name="PFEtask">Taches Du PFE</string>
+    <string name="subtask">Sujet de la Tache :</string>
+    <string name="dettask">Details sur La Tache :</string>
+    <string name="datebeg">Date Debut De la Tache :</string>
+    <string name="dateend">Date Fin De la Tache :</string>
+    <string name="sit">Situation :</string>
+    <string name="late">You\'re Late!</string>
+    <string name="nolate">You Still Have Time</string>
+    <string name="title_activity_pfe__task">Taches Du PFE</string>
+    <string name="title_activity_pfe__rdv">RDVs Du PFE </string>
+
+    <string name="rdv">RDV</string>
+    <string name="rdvsub">Sujet Du RDV :</string>
+    <string name="rdvdate">Date Du RDV:</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="done">Done</string>
+</resources>

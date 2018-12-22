@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            style="@style/dialogTextView"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/dialdettitle"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/dialogLinhor"
+            >
+            <TextView
+                style="@style/dialogTextView"
+                android:text="@string/dialseanam"
+                android:padding="10dp"/>
+            <TextView
+                style="@style/dialogTextViewdet"
+                android:id="@+id/nammodtv"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+             <LinearLayout
+            style="@style/dialogLinhor"
+            >
+            <TextView
+                style="@style/dialogTextView"
+                android:text="@string/dialseatype"
+                android:padding="10dp"/>
+            <TextView
+                style="@style/dialogTextViewdet"
+                android:id="@+id/seatypetv"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+             <LinearLayout
+            style="@style/dialogLinhor"
+            >
+            <TextView
+                style="@style/dialogTextView"
+                android:text="@string/dialdetclas"
+                android:padding="10dp"/>
+            <TextView
+                style="@style/dialogTextViewdet"
+                android:id="@+id/seaclasstv"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/dialogLinhor"
+            >
+            <TextView
+                style="@style/dialogTextView"
+                android:text="@string/dialdetnamprof"
+                android:padding="10dp"/>
+            <TextView
+                style="@style/dialogTextViewdet"
+                android:id="@+id/seaprofetv"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/editText2"
+                android:text="OK"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gsttimetable"
+            android:icon="@drawable/baseline_schedule_black_18"
+            android:title="@string/gsttimetab" />
+        <item
+            android:id="@+id/gstmod"
+            android:icon="@drawable/paper_18"
+            android:title="@string/gstmod" />
+        <item
+            android:id="@+id/gstexam"
+            android:icon="@drawable/exam_18"
+            android:title="@string/gstexam" />
+    </group>
+
+    <item android:icon="@drawable/pfe_18"
+        android:title="@string/pfe"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/pfecont"
+                android:icon="@drawable/contact_18"
+                android:title="@string/pfecont" />
+            <item
+                android:id="@+id/pferdv"
+                android:icon="@drawable/reminder_18"
+                android:title="@string/pferdv" />
+            <item
+                android:id="@+id/pfetask"
+                android:icon="@drawable/task_18"
+                android:title="@string/pfetask" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_manage"
+        android:title="@string/setting"
+        >
+        <menu>
+            <item
+                android:id="@+id/setprof"
+                android:icon="@drawable/contact_18"
+                android:title="@string/profil" />
+        </menu>
+    </item>
+
+</menu>

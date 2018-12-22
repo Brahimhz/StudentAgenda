@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TimeTable"
+    tools:showIn="@layout/app_bar_time_table"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/dialogTextView"
+            android:text="@string/titletimetable"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/titletimetab"/>
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/textView0"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp" />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d1"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d2"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d3"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d4"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d5"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/day6"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:text="@string/d6"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/S1"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+
+                    android:clickable="true"
+                    android:background="@drawable/border"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D6S1"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/S2"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D6S2"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/S3"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D6S3"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/S4"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D6S4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/S5"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    />
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D1S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D2S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D3S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D4S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D5S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"/>
+
+                <com.example.abl.studentagenda.TextViewWithContextMenuInfo
+                    android:id="@+id/D6S5"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="bold|normal"
+                    app:textAllCaps="true"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
