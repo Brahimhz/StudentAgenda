@@ -42,4 +42,9 @@ public class Welcome extends AppCompatActivity {
                 }, TIME_OUT);
             }
     }
+
+    private void test ()
+    {
+        int i ;
+    }
 }
